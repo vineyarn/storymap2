@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dance Music Festivals of the West</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--meta data for sharing links on Facebook-->
+    <meta property="og:title" content="Music Festivals of the Western USA" />
+    <meta property="og:description" content="A Story Map of the West's Most Prominent Dance Music Events." />
+    <meta property="og:image" content="img/social.png" />
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.2/dist/leaflet.css" />
+
+    <!--facebook and info icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!--use a better font for this web map-->
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet" type='text/css'>
+
+
+    <link rel="stylesheet" type="text/css" href="css/storymap.css">
+    <!--add favicon for the web page-->
+    <link rel="shortcut icon" href="img/music_3.ico" type="image/x-icon">
+
+    <!--add required libraries-->
+    <script src="https://unpkg.com/leaflet@1.0.2/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-ajax/2.1.0/leaflet.ajax.min.js"></script>
+
+    <!--story map plugin-->
+    <script src="js/storymap.js"></script>
+
+    <!-- bing map -->
+    <script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=Promise"></script>
+    <script src="http://gmaclennan.github.io/leaflet-bing-layer/leaflet-bing-layer.js"></script>
+
+    <!-- mini globle map -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/1.6.19/topojson.min.js"></script>
+    <script src="js/globeminimap.js"></script>
+</head>
+<body>
+    <div class="row">
+        <div class="col-sm-6 col-md-4 main">
+            <h2 class="page-header">Music Festivals of the Western USA <br/>
+                <small style="font-size:12pt">Noel Vineyard- noel.vineyard@gmail.com, Oregon State University</small></h2>
+            <section data-scene="overview">
+                <p> Summer is fast approaching, and with it, music festival season! Large scale dance music events take place all over the world from Tomorrowland in Boom, Belgium to the Full Moon Parties  of Thailand- but many of these festivals happen right here in the western portion of the United States! Today we are going to take a tour of some of the amazing events coming up this year that are scheduled to take place right in our backyard! </p>
+                <img src="img/plurry1.jpg" class="img-responsive" alt="responsive image">
+            </section>
+
+            <section data-scene="paradiso">
+                <h2>Paradiso Music Festival</h2>
+                <p> In 2012, United States of Conciousness and Live Nation hosted the very first Paradios Music Festival at the George Ampitheater in George, Washingtion. Now in its 5th year, the two day festival features three diverse stages hosting a wide variety of dance music artists, live art, and much more! This year's lineup is still yet to be relased but past years have featured headliners such as Skrillex, Bassnectar, Armin Van Buren, Zedd, Above & Beyond and Zedd!</p>
+                <p> Paradiso Music Festival is widely regarded as the largest electronic music event in the Pacific Northwest, attracting more than 20,000 fans from all over the world in 2016! The Gorge Ampitheater offers a picturesque backdrop for what many ravers in the northwest as the best weekend of the year </p>
+                <p> This years festival takes place on Friday, June 23rd and Saturday, June 24th. Those wishing to attend Paradiso Music Festival can find tickets and camping passes avalible at http//:paradisofestival.com. </p>
+                <p><iframe width="450" height="253" src="https://www.youtube.com/embed/tfC4p5ZcDpA" frameborder="0" allowfullscreen></iframe></p>
+            </section>
+
+            <section data-scene="whatthefest">
+                <h2>What The Festival</h2>
+                <p> What The Festival is an immersive art and music festival experience taking place each summer in Wolf Run Ranch, Oregon at the edge of the Mount Hood National Forest. The festival website describes its mission statement as "Our mission is simple: We want to move your bodies, senses, and souls. We want you to leave feeling connected and to be inspired from your full immersion into art, music, and community." This years headliners include Zhu, Cut Copy, and Gramatik</p>
+                <p> Feeling the Pacific Northwest’s growing desire for a transformational festival with an electronic music and visual art component, the founders of What The Festival were inspired by their years of involvement at Burning Man and music production. What started as a vision, quickly became a tangible reality in 2012.  In its first year, What The Festival was hosted at White River Canyon, Oregon, then graduated the following year to the now-permanent-home of Wolf Run Ranch where it has remained ever since.
+
+                    Five years later, What The Festival has grown but the boutique experience has not disappeared. As our pack grows larger, so do our hearts, and we invite you to participate to the fullest.</p>
+                <p> What the Festival takes place this Summer from June 16th-19th at Wolf Run Ranch, OR. Tickets are still avalible at http://whatthefestival.com/weekend-passes/ </p>
+                <iframe src="https://player.vimeo.com/video/174614008" width="450" height="253" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                <p><a href="https://vimeo.com/174614008">What The Festival 2016 | (OFFICIAL) After Movie</a> from <a href="https://vimeo.com/whatthefestival">What The Festival</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+            </section>
+            <section data-scene="oregoneclipse">
+                <h2>Oregon Eclipse Festival 2017</h2>
+                <p> Symbiosis Presents: Oregon Eclipse 2017 is by far and away the most unique event on this tour as the festival serves to mark the upcoming total solar eclipse that will be visible in the area durring the festival durratoin. This event is a collaboration between festival throwing companies the world over working to bring a powerful experience to patrons in attendance. Oregon Eclipse is only going to happen once, and will feature eight stages hosting performaces of all types from heavy bass music to live theatrical performances. Families are encouraged to attend with ample opportunites for fun and personal growth for people of all ages!</p>
+                <p>
+                    This experience will see a coming together of peoples that will happen one time only in alignment with one of the most spectacular phenomena one can ever witness.</p>
+                <p> Experience Passes are still avalible at http://oregoneclipse2017.com/trailblazer-pass/</p>
+                <p><iframe src="https://player.vimeo.com/video/201233285" width="450" height="253" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                <p><a href="https://vimeo.com/201233285">Total Solar Eclipse Explainer</a> from <a href="https://vimeo.com/symbiosisgathering">Symbiosis Gathering</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+            </section>
+
+            <section data-scene="lightninginabottle">
+                <h2>Lightning in a Bottle Festival</h2>
+                <p>Lightning in a Bottle (LIB) is a transformational festival in the Central Coast region of California presented by The Do LaB. The Do LaB seeks to promote sustainability, social cohesion, personal health, and creative expression. They have also contributed art installations to the Coachella Valley Music and Arts Festival in Indio, California.</p>
+                <p>The festival returning to its home in  San Antonio Reservoir Recreation Area in Bradley, CA for its 17th iteration. Headliners this year include Bassnectar, Rufus Del Sol, Troyboi, and Kaytranata</p>
+                <p> Small numbers of tier three tickets are still avalible at https://www.eventbrite.com/e/lightning-in-a-bottle-arts-music-festival-2017-tickets-30281032383</p>
+                <p><iframe width="450" height="253" src="https://www.youtube.com/embed/A7190XO6w2c" frameborder="0" allowfullscreen></iframe></p>
+            </section>
+
+            <section data-scene="edc">
+                <h2>Electric Daisy Carnival, Las Vegas</h2>
+                <p>Electric Daisy Carnival, commonly known as EDC, is one of the biggest electronic dance music festivals in the world, with its flagship held annually in Las Vegas, Nevada. Big name electronic dance producers and DJ's such as Diplo, Jauz, the Chainsmokers, and Tiësto perform at the many locations held yearly for EDC. The festival incorporates various styles of dance music including trap, bounce, trance, techno, bass, house, and more.</p>
+                <p>Insomnica Events has grown up to host EDC events all over the world, with the second largest next to the Vegas festival taking place in Mexico City this year. Additionally, 2016 saw the launch of EDC Week taking place at nightclubs and pool parties all up and down the Las Vegas strip durring the week leading up to the festival. This year's lineup is still to be announced, however dance music fans can be assured that the festival will always bring about the absolute best of the best.</p>
+                <p>This year's event is taking place from June 16th-June 18th. Tickets and shuttle passes for this year's EDC are avalible at http://lasvegas.electricdaisycarnival.com/2016/11/28/edc-las-vegas-2017-tickets-sale-now/</p>
+                <iframe width="450" height="253" src="https://www.youtube.com/embed/gQLqIMiIuwY" frameborder="0" allowfullscreen></iframe>
+            </section>
+
+            <section data-scene="final">
+                <h2>In Closing</h2>
+                <p>Whether one is looking to venture far from home to experience this summer's festival season, or simply take a jaunt in one's own backyard, those looking to party hard this summer have many many options open to them. Whether or not one is looking for a spiritually empowereing time spent taking in art in its many forms, or looking to be transported into a technicolor pipedream of sounds and lights, there is a festival out here in the west for you!</p>
+                <p>No matter where you end up this festival season, please remember that the law is the law, and all choices have consequences. Please party safe, drink lots of water, take care of your friends, drink even more water, and remember to keep the PLUR spirit alive! </p>
+                <img src="img/plur2.jpg" class="img-responsive" alt="responsive image" >
+
+
+            </section>
+
+            <!--add a arrow for scrolling down the texts-->
+            <div class="glyphicon glyphicon-menu-down glyphicon-align-center arrow-down"></div>
+        </div>
+        <!--map div-->
+        <div id="map" class="col-sm-6 col-md-8 sidebar"></div>
+
+    </div>
+    <!--facebook icon-->
+    <a class="fa fa-facebook-square btn" href="https://facebook.com/sharer.php" target="_blank"></a>
+    <!--info icon-->
+    <i class="fa fa-info-circle btn" style="top:50px" data-toggle="modal" data-target="#info-modal"></i>
+
+    <!--the info page-->
+    <div class="modal fade" id="info-modal" role="dialog">
+        <div class="modal-dialog modal-md">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">About</h4>
+                </div>
+                <div class="modal-body">
+                    <p>This is a web map of major dance music festivals in the western United States. It is mainly made as an assignment for a course GEOG 371: Web Mapping provided by Oregon State University. The story map library is derived from the storymap plugin for leaflet at <a>http://atlefren.github.io/storymap/</a>, and its functionality relies on both leaflet and Boostrap.</p>
+                    <p><b>storymap.js</b> | Released Date: 02/20/2017 | Version: 2.1 | MIT License </p>
+                    <p><b>Author: Noel Vineyard</b> | College of Earth, Ocean, Atmospheric Science | Oregon State University </p>
+                    <p>The context about these music festivals was compilied from the event organizer's various websites and synthesized by Noel Vineyard.</p>
+                    <p>This story map uses geospatial data from mapbox, Google Earth Engine, Microsoft Bing map, Open Street Maps and Oregon Explorer.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- main javascript -->
+<script type="text/javascript">
+    /**
+     * Created by jakob on 2/22/2017.
+     */
+
+
+
+// Create Legend Contents in html format
+    var county_legend ='<i style="background: black; opacity: 0.5"></i><p><b>Counties</b></p>';
+    var corvallis_admin_legend = '<i style="background: orange; opacity: 0.5"></i><p><b>Corvallis</b></p>';
+    var forest_legend = '<i style="background: green; opacity: 0.5"></i><p><b>Forest</b></p>';
+
+
+
+
+
+
+    // For each layer, the first variable is the layer, the second is the legend. The layer variable can be any kinds of layers that leaflet.js supports.
+    // var layers = {
+    //      'layer1': [layer1, legend1]
+    //      'layer2': [layer2, legend2]
+    //      ...
+    // }
+
+
+    var layers = {
+        'bing': [L.tileLayer.bing('AuhiCJHlGzhg93IqUH_oCpl_-ZUrIE6SPftlyGYUvr9Amx5nzA-WqGcPquyFZl4L')],
+        'counties': [L.geoJson.ajax('assets/counties.geojson', {
+            color: 'black',
+            weight: 2,
+            opacity: 0.3
+        }), county_legend],
+        'states': [L.geoJson.ajax('assets/states.json', {
+            color: 'purple',
+            weight: 1,
+            opacity: 0.01
+        })],
+        'corvallis admin': [L.geoJson.ajax('http://www.mapio.us/geoserver/ceoas/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=ceoas:admin&outputFormat=application%2Fjson', {
+            color: 'orange',
+            weight: 5
+        }), corvallis_admin_legend],
+        'forest cover 2010': [L.tileLayer('http://earthengine.google.org/static/hansen_2013/tree_alpha/{z}/{x}/{y}.png'), forest_legend],
+        'satellite': [L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoiamFrb2J6aGFvIiwiYSI6ImNpcms2YWsyMzAwMmtmbG5icTFxZ3ZkdncifQ.P9MBej1xacybKcDN_jehvw', {
+            id: 'mapbox.satellite',
+            opacity: 0.3
+        })],
+        'festivals': [L.geoJson.ajax('assets/festivals.geojson',
+            {
+                onEachFeature: function (feature, layer) {
+                    layer.bindPopup(feature.properties.name)
+                },
+                pointToLayer: function (feature, latlng) {
+                    return L.circleMarker(latlng, {
+                        radius: 8,
+                        fillColor: 'purple',
+                        color: "#242121",
+                        opacity: 1,
+                        weight: 1.5,
+                        fillOpacity: 1
+                    })
+                }
+
+            })],
+        'cities': [L.geoJson.ajax('assets/wccities.geojson',
+            {
+                onEachFeature: function (feature, layer) {
+                    layer.bindPopup(feature.properties.name)
+                },
+                pointToLayer: function (feature, latlng) {
+                    return L.circleMarker(latlng, {
+                        radius: 5,
+                        fillColor: 'blue',
+                        color: "#242121",
+                        opacity: 1,
+                        weight: 1.5,
+                        fillOpacity: 1
+                    })
+                }
+
+            })]
+
+    };
+
+
+
+    var scenes = {
+        overview: {lat: 44, lng: -123.5, zoom: 5, layers: ['states','festivals','cities']},
+        paradiso: {lat: 47.101371, lng: -119.995796, zoom: 8, layers: ['states','festivals','cities']},
+        whatthefest: {lat: 45.449556, lng: -121.235991, zoom: 9, layers: ['satellite','states','festivals','cities']},
+        oregoneclipse: {lat: 44.360168, lng: -120.197144, zoom: 8, layers: ['bing','states','festivals','cities']},
+        lightninginabottle: {lat: 35.905215, lng: -120.983928, zoom: 8, layers: ['bing','states','festivals','cities']},
+        edc: {lat: 36.271677, lng: -115.010040, zoom: 8, layers: ['satellite','states','festivals','cities']},
+        final: {lat: 41.989350, lng: -119.992740, zoom: 4, layers: ['bing', 'states', 'festivals','cities']}
+    };
+
+    $('.main').storymap({
+        scenes: scenes,
+        layers: layers,
+        legend: true, // if you do not want a legend feature, you can simply not define the createLegend function.
+        createMap: function () {
+            // create a map in the "map" div, set the view to a given place and zoom
+            var map = L.map('map', {zoomControl: false, scrollWheelZoom: false});
+
+            // add an base map, which can be either OSM, mapbox, tilelayer, wmslayer or those designed by yourself.
+            L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoiamFrb2J6aGFvIiwiYSI6ImNpcms2YWsyMzAwMmtmbG5icTFxZ3ZkdncifQ.P9MBej1xacybKcDN_jehvw', {
+                maxZoom: 18,
+                attribution: '<a href="http://ceoas.oregonstate.edu/profile/zhao/" target="_blank">Bo Zhao</a>',
+                id: 'mapbox.light'
+            }).addTo(map);
+
+            L.control.scale({position: 'bottomright', metric: false}).addTo(map);
+
+            // create a mini globe as the overview map control.
+            var miniMap = new L.Control.GlobeMiniMap({
+                marker:'red',
+                position: 'bottomright'
+            }).addTo(map);
+
+
+                return map;
+            }
+        });
+</script>
+</body>
+</html>
